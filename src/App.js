@@ -6,6 +6,9 @@ import user from "./SocialProfile/user.json";
 import Statistics from "./Statistics/Statistics.js";
 import statisticalData from "./Statistics/statistical-data.json";
 
+import FriendList from "./FriendList/FriendList.js";
+import friends from "./FriendList/friends.json";
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +23,7 @@ function App() {
       />
       <Statistics title="Upload stats" stats={statisticalData} />
       <Statistics stats={statisticalData} />
+      <FriendList friends={friends} />
     </div>
   );
 }
