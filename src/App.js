@@ -3,8 +3,8 @@ import React from "react";
 import SocialProfile from "./SocialProfile/SocialProfile.js";
 import user from "./SocialProfile/user.json";
 
-import Statistics from "./components/statistics/Statistics";
-import statisticalData from "./components/statistics/statistical-data.json";
+import Statistics from "./Statistics/Statistics.js";
+import statisticalData from "./Statistics/statistical-data.json";
 
 function App() {
   return (
